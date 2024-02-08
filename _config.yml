@@ -1,0 +1,22 @@
+# Essential site settings.
+title: Site template
+language: en-US # Language for the site.
+email: changeme@example.org
+description: > # Ignore newlines until "baseurl:"
+  Basic site template.
+baseurl: "" # Subpath of the site, if applicable.
+url: "https://example.org" # Base protocol and hostname.
+github_url: example
+twitter_url: example
+instagram_url: example
+facebook_url: example
+linkedin_url: example
+
+# Essential build settings.
+markdown: kramdown # Default.
+highlighter: rouge # Default.
+permalink: /:categories/:year/:month/:day/:title
+
+# Default to creating a sitemap for better crawling.
+plugins:
+  - jekyll-sitemap

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{site.language}}">
+<head>
+  {% include head-meta.html %}
+  {% include head-scripts.html %}
+  {% include head-fonts.html %}
+  {% include head-styles.html %}
+</head>
+<body class="flex-body">
+  {% include body-navbar.html %}
+
+  {{ content }}
+
+  {% include body-footer.html %}
+</body>
+</html>
