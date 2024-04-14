@@ -12,6 +12,20 @@ Use `make install` to get the necessary dependencies.
 
 Use `make s` or `make serve` to serve using Jekyll.
 
+This includes livereload to automatically refresh the page when you save changes.
+
+### Modify
+
+At a minimum, you should modify these files:
+
+* `_config.yml` - update this with your site information.
+* `index.html` - update this with your landing page content.
+* `_includes/body-navbar.html` - update this with your navigation structure.
+
+You are strongly encouraged to update dependencies as well.
+
+From there, you add pages, posts, content, and anything else!
+
 ### Build
 
 Use `make build` to build using Jekyll.
