@@ -1,4 +1,4 @@
-# Site template
+# Site template for Jekyll
 
 A basic Jekyll template that is responsive, lightweight, and only uses JavaScript for progressive enhancement.
 
@@ -41,3 +41,13 @@ Dependencies include:
 * EB Garamond
 
 Check the Gemfile for additional Ruby dependencies.
+
+## Contributing
+
+Pull requests are welcomed.
+
+## License
+
+SPDX-License-Identifier: Apache-2.0
+
+Visit [LICENSE](LICENSE) for full text.
